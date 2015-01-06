@@ -75,11 +75,9 @@ a {
   	margin-top: 3em;
 	text-align: center;
 }
-
 #wrapper h1 {
 	margin-bottom: 2em;
 }
-
 .content {
 	/*padding: 5px;*/
     margin: 30px auto;
@@ -105,14 +103,12 @@ a {
 	/*display: inline-block; /* avoid content breaking between two columns */
 	/*display: inline-block;*/
 }
-
 .word h2 {
 	display: inline-block;
 	width: 1em; /* to fake text vertical orientation */
 	margin-bottom: 15px;
 }
-
-/* Text vertical orientation, seems to work only on Chrome */
+/* Text vertical orientation, seems to work properly only on Chrome */
 .verticalWriting {
 	-ms-writing-mode: tb-rl; /* old syntax. IE */
 	-webkit-writing-mode: vertical-rl;
@@ -124,7 +120,6 @@ a {
 	-ms-text-orientation: upright;
 	text-orientation: upright;
 }
-
 .word .info {
 	width: 100%;
 	padding-top: 5px;
@@ -135,14 +130,13 @@ a {
 	line-height: 1.5;
 	/*padding: .5em 0;*/
 }
-
 .word .sentence {
 	color: #555;
 }
-
 .word .source {
 	text-align: right;
 }
+
 
 /************************ STATES ***********************/
 
