@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+/************************ BASE ***********************/
+
+/* RESET - Eric Meyer | v2.0 | 20110126 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END RESET */
+
+body {
+	font-family: 'Noto Sans', 'MS PGothic', Osaka, Arial, sans-serif;
+	background-color: #FFF;
+	color: #333333;
+	background-image: url(../medias/background2.jpg);
+	/*background-size: 100%;*/
+}
+h1 {
+	font-size: 1em;
+	font-weight: bold;
+}
+h2 {
+	font-size: 4em;
+}
+a {
+	color: #5ABAD6;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+/************************ LAYOUT ***********************/
+
+#wrapper {
+  	max-width: 960px;
+  	margin: 0 auto;
+  	margin-top: 3em;
+	text-align: center;
+}
+#wrapper h1 {
+	margin-bottom: 2em;
+}
+.content {
+	/*padding: 5px;*/
+    margin: 30px auto;
+    padding: 0;
+    position: relative;
+}
+
+
+/************************ MODULE ***********************/
+
+.word {
+	/*background-color: #FEFEFE;*/
+	/*background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);*/
+	/*border: 2px solid #FAFAFA;*/
+	/*box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);*/
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding: 15px;
+	padding-bottom: 5px;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	text-align: center;
+
+	background-image: -moz-linear-gradient(45deg, #FFF 25%, transparent 25%), 
+        -moz-linear-gradient(-45deg, #FFF 25%, transparent 25%), 
+        -moz-linear-gradient(45deg, transparent 75%, #FFF 75%), 
+        -moz-linear-gradient(-45deg, transparent 75%, #FFF 75%);
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #FFF), color-stop(.25, transparent)), 
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #FFF), color-stop(.25, transparent)), 
+        -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #FFF)), 
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #FFF));
+    background-image: -webkit-linear-gradient(45deg, #FFF 25%, transparent 25%), 
+        -webkit-linear-gradient(-45deg, #FFF 25%, transparent 25%), 
+        -webkit-linear-gradient(45deg, transparent 75%, #FFF 75%), 
+        -webkit-linear-gradient(-45deg, transparent 75%, #FFF 75%);
+    background-image: -o-linear-gradient(45deg, #FFF 25%, transparent 25%), 
+        -o-linear-gradient(-45deg, #FFF 25%, transparent 25%), 
+        -o-linear-gradient(45deg, transparent 75%, #FFF 75%), 
+        -o-linear-gradient(-45deg, transparent 75%, #FFF 75%);
+    background-image: linear-gradient(45deg, #FFF 25%, transparent 25%), 
+        linear-gradient(-45deg, #FFF 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, #FFF 75%), 
+        linear-gradient(-45deg, transparent 75%, #FFF 75%);
+    -moz-background-size: 2px 2px;
+    background-size: 2px 2px;
+    -webkit-background-size: 2px 2.1px; /* override value for webkit */
+    background-position: 0 0, 1px 0, 1px -1px, 0px 1px;
+}
+.word:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.word h2 {
+	display: inline-block;
+	/*width: 1em; /* to fake text vertical orientation */
+	margin-bottom: 15px;
+	vertical-align: middle;
+}
+
+.word .source {
+	/*text-align: right;*/
+	display: inline-block;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+
+
+/************************ STATES ***********************/
+
+/************************ THEME ***********************/
+
+/* DEBUG MODE */
+.debug #wrapper {
+	border: 1px solid #000;
+}
+.debug .content {
+	border: 1px solid #999;
+}

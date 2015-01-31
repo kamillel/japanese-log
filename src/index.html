@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html ng-app="december">
+<html ng-app="myWords">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>December Vocab</title>
+    <title>January Vocab</title>
     <meta name="author" content="Camille Lemaire">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body ng-controller="VocabController as vocab">
     <div id="wrapper">
-      <h1>December</h1>
-      <div class="content" id="grid">
-        <div ng-repeat="word in vocab.words" class="word {{word.id}}" ng-gate8-masonry>
+      <h1>January</h1>
+      <div class="content grid" id="grid">
+        <div ng-repeat="word in vocab.words" class="word" ng-gate8-masonry>
           <h2>{{word.name}}</h2>
-          <div class="info">
-            <p class="pronunciation">{{word.pronunciation}}</p>
-            <p class="description">{{word.description}}</p>
-            <p class="sentence">{{word.sentence}}</p>
-            <p class="source"><a href="{{word.source}}" target="_blank">+</a></p>
-          </div>
+          <p class="source"><a href="{{word.source}}" target="_blank">+</a></p>
         </div>
       </div>
     </div> <!-- end wrapper -->

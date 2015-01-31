@@ -1,0 +1,98 @@
+[
+  {
+    "id": "kazari",
+    "name":"飾り", 
+    "translation":"decoration",
+    "pronunciation": "かざり",
+    "sentence": "多くの人が、自分の家に神様が来るように、いろいろな飾りをします。",
+    "link": "http://www3.nhk.or.jp/news/easy/k10014353081000/k10014353081000.html"
+  }, 
+  {
+    "id": "juubun",
+    "name":"十分", 
+    "translation":"plenty; enough; sufficient",
+    "pronunciation": "じゅうぶん",
+    "sentence": "十分に満足している状態。幸福。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353081000/k10014353081000.html"
+  },
+  {
+    "id": "mochi",
+    "name":"餅", 
+    "translation":"mochi",
+    "pronunciation": "もち",
+    "sentence": "餅の形が昔の鏡に似ているため、鏡餅という名前になりました。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353081000/k10014353081000.html"
+  },
+  {
+    "id": "kasaneru",
+    "name":"重ねる", 
+    "translation":"to pile up",
+    "pronunciation": "かさねる",
+    "sentence": "鏡餅は、大きな丸い形の餅の上に小さな丸い形の餅を置いて、重ねます。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353081000/k10014353081000.html"
+  },
+  {
+    "id": "toshikoshisoba",
+    "name":"年越しそば", 
+    "translation":"soba noodles eaten on new year's eve",
+    "pronunciation": "としこしそば",
+    "sentence": "日本では、大みそかに「年越しそば」を食べます。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353091000/k10014353091000.html"
+  },
+  {
+    "id": "oomisoka",
+    "name":"大晦日", 
+    "translation":"new year's eve",
+    "pronunciation": "おおみそか",
+    "sentence": "大みそかには、大勢の人がそば屋などで「年越しそば」を食べます。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353091000/k10014353091000.html"
+  },
+  {
+    "id": "inoshishi",
+    "name":"いのしし", 
+    "translation":"wild boar",
+    "pronunciation": "猪",
+    "sentence": "沖縄県には、いのししの肉を入れて食べる所もあります。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353091000/k10014353091000.html"
+  },
+  {
+    "id": "souji",
+    "name":"掃除", 
+    "translation":"cleaning",
+    "pronunciation": "そうじ",
+    "sentence": "多くの家では、大みそかまでに家の中を全部掃除します。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353101000/k10014353101000.html"
+  },
+  {
+    "id": "mukaeru",
+    "name":"迎える", 
+    "translation":"to go out to meet",
+    "pronunciation": "むかえる",
+    "sentence": "１年の汚れをきれいにして、新しい年を気持ちよく迎えるためです。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353101000/k10014353101000.html"
+  },
+  {
+    "id": "hanareru",
+    "name":"離れる", 
+    "translation":"to be separated",
+    "pronunciation": "はなれる",
+    "sentence": "離れて住んでいる家族が正月に帰ってくる家などでは、いろいろな料理をたくさん作ります。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353101000/k10014353101000.html"
+  },
+  {
+    "id": "kane",
+    "name":"鐘", 
+    "translation":"bell",
+    "pronunciation": "かね",
+    "sentence": "大みそかの夜１２時の少し前になると、寺では大きな鐘を打ち始めます。",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353101000/k10014353101000.html"
+  },
+  {
+    "id": "souji",
+    "name":"苦しめる", 
+    "translation":"to torment; to hurt; to trouble",
+    "pronunciation": "くるめる",
+    "sentence": " 煩悩（＝人を苦しめる欲望など）",
+    "source": "http://www3.nhk.or.jp/news/easy/k10014353101000/k10014353101000.html"
+  }
+]

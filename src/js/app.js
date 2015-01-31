@@ -1,7 +1,7 @@
-var december = angular.module('december', []);
-// var december = angular.module('december', ['ng']);
+var myWords = angular.module('myWords', []);
+// var myWords = angular.module('myWords', ['ng']);
 
-december.controller('VocabController', function($scope, $http) {
+myWords.controller('VocabController', function($scope, $http) {
     var vocab = this;
     vocab.words = [];
 
@@ -14,7 +14,7 @@ december.controller('VocabController', function($scope, $http) {
 });
 
 // directive from https://github.com/gate8team/socialMood
-december.directive('ngGate8Masonry', function($timeout) {
+myWords.directive('ngGate8Masonry', function($timeout) {
     return function(scope, element, attrs) {
 
         if (scope.$last){

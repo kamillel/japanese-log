@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="myWords">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>December Vocab</title>
+    <meta name="author" content="Camille Lemaire">
+    <link rel="stylesheet" type="text/css" href="css/december.css" />
+    <style>
+      /*.word {
+        opacity: 0;
+      }
+      .grid .word.shown,
+      .no-js .grid .word,
+      .no-cssanimations .grid .word {
+        opacity: 1;
+      }*/
+      .grid.effect-7 {
+        -webkit-perspective: 1300px;
+        perspective: 1300px;
+      }
+      .grid.effect-7 li.animate {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+        -webkit-animation: helix .8s ease-in-out forwards;
+        animation: helix .8s ease-in-out forwards;
+      }
+      @-webkit-keyframes helix {
+        0% { }
+        100% { -webkit-transform: rotateY(0deg); opacity: 1; }
+      }
+      @keyframes helix {
+        0% { }
+        100% { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); opacity: 1; }
+      }
+    </style>
+  </head>
+  <body ng-controller="VocabController as vocab">
+    <div id="wrapper">
+      <h1>December</h1>
+      <div class="content grid" id="grid">
+        <div ng-repeat="word in vocab.words" class="word {{word.id}}" ng-gate8-masonry>
+          <h2>{{word.name}}</h2>
+          <div class="info">
+            <p class="pronunciation">{{word.pronunciation}}</p>
+            <p class="translation">{{word.translation}}</p>
+            <p class="sentence">{{word.sentence}}</p>
+            <p class="source"><a href="{{word.source}}" target="_blank">+</a></p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end wrapper -->
+    <script src='../bower_components/masonry/dist/masonry.pkgd.min.js'></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+     <!-- <script src="js/AnimOnScroll.js"></script>
+    <script>
+      new AnimOnScroll( document.getElementById( 'grid' ), {
+        minDuration : 0.4,
+        maxDuration : 0.7,
+        viewportFactor : 0.2
+      } );
+    </script> -->
+  </body>
+</html>
